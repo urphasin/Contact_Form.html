@@ -1,0 +1,29 @@
+.form div {
+    margin-bottom: 1.5rem;
+}
+
+.success-message {
+    color: green;
+    background: #e6ffe6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid blue;
+}
+
+input:invalid,
+textarea:invalid {
+    border: 2px solid red;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-bottom: 16px;
+    accent-color: red;
+    padding: 12px;
+}
